@@ -34,13 +34,13 @@ Algoritmo Examen
 	FinPara
 	
 	Escribir  "Valor del Tope de la Pila: ", topePila[0];
-	Escribir "ÀLa Fila est‡ vacia? ",filaEstaVacia(fila);
-	Escribir "ÀLa Fila est‡ llena? ",filaEstaLlena(fila);
+	Escribir "Ã€La Fila estâ€¡ vacia? ",filaEstaVacia(fila);
+	Escribir "Ã€La Fila estâ€¡ llena? ",filaEstaLlena(fila);
 	
 	Si(filaEstaVacia(fila)) Entonces
 		Escribir "No hubo Coincidencias";
 	Sino
-		Escribir "Est‡s fueron las coincidencias";
+		Escribir "Estâ€¡s fueron las coincidencias";
 	FinSi
 	
 	ImprimirFila(fila);
@@ -48,7 +48,7 @@ Algoritmo Examen
 FinAlgoritmo
 
 // Pila
-// Metodo para desapilar un valor, y retornar la posici—n donde se encontraba.
+// Metodo para desapilar un valor, y retornar la posiciâ€”n donde se encontraba.
 
 SubProceso posicionElemento <- Desapilar(tope)
 	
@@ -97,8 +97,8 @@ FinSubProceso
 // Metodo para imprimir la Fila
 SubProceso ImprimirFila(nombreFila)
 	Escribir "Fila:";
-	Para indice = 2 Hasta 0 Con Paso -1 Hacer
-		Escribir "Posici—n: " indice," | Valor: ",  nombreFila[indice];
+	Para indice = 0 Hasta 2 Con Paso 1 Hacer
+		Escribir "Posiciâ€”n: " indice," | Valor: ",  nombreFila[indice];
 	FinPara
 FinSubProceso
 
